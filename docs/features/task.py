@@ -9,6 +9,7 @@ def remove_task(index):
         removed = tasks.pop(index)
         print(f"Задача '{removed}' удалена.")
     else:
+<<<<<<< HEAD
         print("Неверный индекс.")
 
 def list_tasks():
@@ -17,3 +18,6 @@ def list_tasks():
     else:
         for i, task in enumerate(tasks):
             print(f"{i}. {task}")
+=======
+        print("Неверный индекс.")
+>>>>>>> b53333523940e72c55103a886927e47568f0934d
